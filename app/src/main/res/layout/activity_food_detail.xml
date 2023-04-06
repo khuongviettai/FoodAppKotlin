@@ -140,20 +140,21 @@
                     android:focusable="false"/>
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/tv_add_to_cart"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/define_dimen_10"
-                android:layout_marginTop="@dimen/define_dimen_10"
-                android:layout_marginEnd="@dimen/define_dimen_10"
-                android:layout_marginBottom="@dimen/define_dimen_20"
-                android:background="@drawable/bg_green_shape_corner_6"
-                android:gravity="center"
-                android:padding="@dimen/define_dimen_12"
-                android:text="@string/add_to_cart"
-                android:textColor="@color/white"
-                android:textSize="@dimen/text_size_normal" />
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+    <TextView
+        android:id="@+id/tv_add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/define_dimen_10"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/bg_green_shape_corner_6"
+        android:gravity="center"
+        android:padding="@dimen/define_dimen_12"
+        android:text="@string/add_to_cart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_normal" />
 </RelativeLayout>
