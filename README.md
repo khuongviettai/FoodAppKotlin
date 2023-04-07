@@ -16,7 +16,7 @@ create project firebase
 ### 2 coppy name package and past Add Firebase to your Android app
 
 ```
-com.example.foodorder
+com.khuongviettai.foodorder
 ```
 
 ### 3 Download config file and past app level 
